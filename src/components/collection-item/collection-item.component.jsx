@@ -27,7 +27,7 @@ backgroundImage:`url(${imageUrl})`
 <span className='price'>{price}</span>
 </div>
 <CustomButton onClick={()=> addItem(item)} inverted>Add to cart</CustomButton>
-Add to cart
+
 </div>
 )
 
