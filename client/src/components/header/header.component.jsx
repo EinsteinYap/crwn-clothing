@@ -48,7 +48,7 @@ const mapDispatchToProps = dispatch => ({
   signOutStart: () => dispatch(signOutStart())
 });
 
-export default connect(
+export default React.memo(connect(
   mapStateToProps,
   mapDispatchToProps
-)(Header);
+)(Header));
